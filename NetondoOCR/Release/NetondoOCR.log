@@ -1,0 +1,34 @@
+﻿Build started 02/08/2017 22:52:33.
+     1>Project "C:\Users\test\Documents\Visual Studio 2012\Projects\NetondoOCR\NetondoOCR\NetondoOCR.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\test\Documents\Visual Studio 2012\Projects\NetondoOCR\NetondoOCR\include" /I"C:\Program Files (x86)\Java\jdk1.7.0_60\include" /I"C:\Program Files (x86)\Java\jdk1.7.0_60\include\win32" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NETONDOOCR_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt OCR.cpp
+         OCR.cpp
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\tesseract\strngs.h(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\tesseract\unicharset.h(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\tesseract\unicharset.h(274): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\tesseract\unicharset.h(299): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\tesseract\platform.h(33) : see previous definition of 'snprintf'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>c:\users\test\documents\visual studio 2012\projects\netondoocr\netondoocr\CV.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>OCR.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>OCR.cpp(12): warning C4101: 'wordsJava' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:/Users/test/Documents/NetBeansProjects/test\OCR.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\test\Documents\Visual Studio 2012\Projects\NetondoOCR\NetondoOCR\lib" liblept168.lib libtesseract302.lib opencv_core2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/test/Documents/NetBeansProjects/test\OCR.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/test/Documents/NetBeansProjects/test\OCR.lib" /MACHINE:X86 /SAFESEH /DLL Release\CV.obj
+         Release\OCR.obj
+         Release\Tess.obj
+            Creating library C:/Users/test/Documents/NetBeansProjects/test\OCR.lib and object C:/Users/test/Documents/NetBeansProjects/test\OCR.exp
+         Generating code
+         Finished generating code
+         NetondoOCR.vcxproj -> C:/Users/test/Documents/NetBeansProjects/test\OCR.dll
+     1>Done Building Project "C:\Users\test\Documents\Visual Studio 2012\Projects\NetondoOCR\NetondoOCR\NetondoOCR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.21
